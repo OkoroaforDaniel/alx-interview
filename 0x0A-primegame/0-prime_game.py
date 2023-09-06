@@ -11,4 +11,6 @@ def isWinner(x, nums):
     # Loop through each round
     for n in nums:
         winner = playGame(n)
+        # Update maria_wins and ben_wins based on the winner
 
+    # Determine the overall winner and return it (or None)
